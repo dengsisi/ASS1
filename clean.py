@@ -22,4 +22,4 @@ if __name__ == '__main__':
     cleaned = clean(args.contact_info_file,args.other_info_file)
     cleaned.to_csv(args.output_file, index=False)
 
-  print(f"the shape of output file:{cleaned.shape}")
+  print(f"the shape of output file is:{cleaned.shape}")
